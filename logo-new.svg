@@ -1,0 +1,52 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 120'>
+  <defs>
+    <linearGradient id='neonGradient' x1='0%' y1='0%' x2='100%' y2='0%'>
+      <stop offset='0%' style='stop-color:#e935c1'/>
+      <stop offset='50%' style='stop-color:#8b5cf6'/>
+      <stop offset='100%' style='stop-color:#06b6d4'/>
+    </linearGradient>
+    <linearGradient id='neonGradient2' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color:#e935c1'/>
+      <stop offset='50%' style='stop-color:#8b5cf6'/>
+      <stop offset='100%' style='stop-color:#06b6d4'/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Coral Icon -->
+  <g transform='translate(20, 20)'>
+    <!-- Main coral branch -->
+    <path d='M 40 60 C 40 50, 35 40, 30 30 C 25 20, 25 15, 30 10 C 35 5, 45 5, 50 10 C 55 15, 55 20, 50 30 C 45 40, 40 50, 40 60' 
+          fill='none' stroke='url(#neonGradient)' stroke-width='4' stroke-linecap='round'/>
+    
+    <!-- Left branch -->
+    <path d='M 30 30 C 25 25, 20 20, 15 15 C 10 10, 10 5, 15 5 C 20 5, 25 10, 25 15' 
+          fill='none' stroke='url(#neonGradient)' stroke-width='3' stroke-linecap='round'/>
+    
+    <!-- Right branch -->
+    <path d='M 50 30 C 55 25, 60 20, 65 15 C 70 10, 70 5, 65 5 C 60 5, 55 10, 55 15' 
+          fill='none' stroke='url(#neonGradient)' stroke-width='3' stroke-linecap='round'/>
+    
+    <!-- Additional coral details -->
+    <circle cx='30' cy='10' r='4' fill='url(#neonGradient)'/>
+    <circle cx='50' cy='10' r='4' fill='url(#neonGradient)'/>
+    <circle cx='15' cy='15' r='3' fill='url(#neonGradient)'/>
+    <circle cx='65' cy='15' r='3' fill='url(#neonGradient)'/>
+    
+    <!-- Base -->
+    <path d='M 35 60 L 45 60' stroke='url(#neonGradient)' stroke-width='4' stroke-linecap='round'/>
+  </g>
+  
+  <!-- NEON text -->
+  <text x='100' y='50' font-family='Arial Black, sans-serif' font-size='44' font-weight='900' fill='url(#neonGradient)' letter-spacing='3'>NEON</text>
+  
+  <!-- REEF text -->
+  <text x='100' y='90' font-family='Arial Black, sans-serif' font-size='44' font-weight='900' fill='url(#neonGradient)' letter-spacing='3'>REEF</text>
+  
+  <!-- CO. text -->
+  <text x='280' y='90' font-family='Arial Black, sans-serif' font-size='34' font-weight='700' fill='#06b6d4' letter-spacing='1'>CO.</text>
+  
+  <!-- Decorative elements -->
+  <circle cx='340' cy='40' r='3' fill='#e935c1' opacity='0.8'/>
+  <circle cx='350' cy='45' r='2' fill='#8b5cf6' opacity='0.8'/>
+  <circle cx='345' cy='50' r='2.5' fill='#06b6d4' opacity='0.8'/>
+</svg> 

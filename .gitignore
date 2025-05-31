@@ -1,0 +1,39 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+
+# Build Files
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Shopify Theme Files (if converting)
+config/settings_data.json
+
+# Image Originals (keep processed versions only)
+images/originals/
+
+# Backup Files
+*.bak
+backup/ 
